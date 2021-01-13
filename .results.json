@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 5,
+    "passes": 1,
+    "pending": 0,
+    "failures": 4,
+    "start": "2021-01-13T00:50:26.799Z",
+    "end": "2021-01-13T00:50:27.607Z",
+    "duration": 808
+  },
+  "tests": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Emma' to equal 'bob'",
+        "showDiff": true,
+        "actual": "Emma",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'Emma' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)"
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Emma' to equal 'bob'",
+        "showDiff": true,
+        "actual": "Emma",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'Emma' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)"
+      }
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Sophie' to equal 'maybe bob'",
+        "showDiff": true,
+        "actual": "Sophie",
+        "expected": "maybe bob",
+        "stack": "AssertionError: expected 'Sophie' to equal 'maybe bob'\n    at Context.<anonymous> (test/indexTest.js:31:38)"
+      }
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)",
+        "message": "changeLeastFavoriteCustomer is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Emma' to equal 'bob'",
+        "showDiff": true,
+        "actual": "Emma",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'Emma' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)"
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Emma' to equal 'bob'",
+        "showDiff": true,
+        "actual": "Emma",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'Emma' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)"
+      }
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Sophie' to equal 'maybe bob'",
+        "showDiff": true,
+        "actual": "Sophie",
+        "expected": "maybe bob",
+        "stack": "AssertionError: expected 'Sophie' to equal 'maybe bob'\n    at Context.<anonymous> (test/indexTest.js:31:38)"
+      }
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)",
+        "message": "changeLeastFavoriteCustomer is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
